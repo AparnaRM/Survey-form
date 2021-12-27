@@ -1,0 +1,104 @@
+html, body {
+    font-family: 'Cabin', sans-serif;
+    background-color: rgba(82, 82, 167, 0.918);
+    text-align: center;
+    min-width: 320px;
+    font-size: 1.2em;
+    color:white
+    
+  }
+  
+  #container {
+    background-color: #0f273f;
+    margin: 0 auto;
+    border-radius: 8px;
+    width: 60%;
+    max-width: 900px;
+    padding: 10px;
+  }
+  
+  .labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+  }
+  
+  .entry {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+  }
+  
+  .field {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  .recommend {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  #submit {
+    background-color: #33e42c;
+    border-radius: 4px;
+    font-size: 1.1em;
+    height: 50px;
+    width: 110px;
+    margin: 10px;
+    border: 2px solid;
+    padding: 5px;
+  }
+  
+  .dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border-radius: 2px;
+  }
+  
+  .radio, .checkbox {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+  }
+  
+  select {
+    border: 3px solid #d4dfd3;
+  }
+  
+  @media screen and (max-width: 833px) {
+    .input-field {
+      width: 80%;
+    }
+    select {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .labels {
+      width: 100%;
+      text-align: left;
+    }
+    .entry {
+      width: 80%;
+      float: left;
+    }
+    .field {
+      width: 100%;
+    }
+    select {
+      width: 100%;
+    }
+  }
